@@ -15,3 +15,5 @@ select
   cast(parent_id as string) as parent_id
 from
   ${ref("posts_answers")}
+where
+  EXTRACT(DATE FROM created_at) between '2022-09-01' and '2022-09-25'

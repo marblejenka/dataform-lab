@@ -12,3 +12,5 @@ select
   user_id
 from
   ${ref("badges")}
+where
+  EXTRACT(DATE FROM award_timestamp) between '2022-09-01' and '2022-09-25'
