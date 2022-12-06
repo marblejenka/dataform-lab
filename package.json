@@ -1,0 +1,6 @@
+{
+  "name": "dataform-lab",
+  "dependencies": {
+    "@dataform/core": "2.0.1"
+  }
+}
