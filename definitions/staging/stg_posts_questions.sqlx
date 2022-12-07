@@ -16,4 +16,4 @@ select
 from
   ${ref("posts_questions")}
 where
-  EXTRACT(DATE FROM created_at) between '2022-09-01' and '2022-09-25'
+  EXTRACT(DATE FROM creation_date) between '2022-09-01' and '2022-09-25'
